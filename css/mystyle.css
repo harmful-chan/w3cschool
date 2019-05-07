@@ -77,14 +77,20 @@ div#body_content{
     width: auto;
     margin: 0px 20px;  
 }
+div#body_content_header{
+    
+}
 div#body_content_header h1{
     padding: 10px 0px;
 }
-div#body_content_header a{
+div#body_content_header_button{
+    padding: 20px 0px;
+}
+div#body_content_header_button a{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
-    padding: 3px 40px;
+    padding: 5px 40px;
     border-style: solid;
     border-width: thin;
     border-color: rgb(0, 0, 0, 0.4);
@@ -93,7 +99,7 @@ div#body_content_header a{
     text-decoration: none;
     background-color: gainsboro;
 }
-div#body_content_header a:hover{
+div#body_content_header_button a:hover{
     border-color: rgb(0, 0, 0, 1);
     color: rgb(0, 0, 0, 1);
 }
