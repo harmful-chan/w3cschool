@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+div#header{
+    height: 100px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: white;
+}
+div#header img{
+    float: left;    
+    width: 300px;
+    height: 100%;
+    background-color: white;
+}
+div#menu{
+    margin: 0 auto;
+    width: 80%;
+}
+div#menu ul{
+    list-style-type: none;
+    background-color: gainsboro;
+}
+div#menu li{
+    display: inline-block;
+    padding: 15px 0px;
+}
+div#menu a{
+    text-decoration: none;
+    color: grey;
+    padding: 15px 15px;
+}
+div#menu a:visited, a:hover{
+    background-color: dimgrey;
+}
+
+div#body{
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+}
+div#body_menu{
+    width: 180px;
+    float: left;
+    border: 1px solid gainsboro;
+}
+div#body_menu_title{
+    padding: 5px 0px;
+    background-color: gainsboro;
+
+}
+div#body_menu_title p{
+    text-align: center;
+    color: grey;
+    
+}
+div#body_menu ul{
+    list-style: none;
+}
+div#body_menu h5{
+    padding: 5px 5px;
+}
+div#body_menu p{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+div#body_menu p:hover{
+    background-color: gainsboro;
+}
+div#body_content{
+    float: left;
+    width: auto;
+    margin: 0px 20px;  
+}
+div#body_content_header h1{
+    padding: 10px 0px;
+}
+div#body_content_header a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 3px 40px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(0, 0, 0, 0.4);
+    color: rgb(0, 0, 0, 0.4);
+    font-size: 10px;
+    text-decoration: none;
+    background-color: gainsboro;
+}
+div#body_content_header a:hover{
+    border-color: rgb(0, 0, 0, 1);
+    color: rgb(0, 0, 0, 1);
+}
